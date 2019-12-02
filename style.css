@@ -1,0 +1,102 @@
+.logo_container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.form{
+    width: 100%;
+    max-width: 590px;
+    height: 40px;
+    background-image:url("images/voice.png");
+    background-repeat: norepeat;
+    background-position: rightop;
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+.bnt{background-color: #f2f2f2;
+    border-radius:2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13pxfont-weight; bold;
+    margin: 15px 14px;
+    border:0;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.btn:hover{
+color: #00000;
+border:1px solid #757575;
+}
+
+ul{ float: right;}
+
+ul li{display:inline-block;}
+
+ul li a{
+    color:#000000;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin: 0px 10px;
+    border:0;
+    text-align: center;
+    line-height:24px;
+    text-decoration: none;
+}
+
+.sign_btn a{
+    background: #4285F4;
+    padding:10px 10px;
+    color:white;
+    border-radius: 3px;
+    font-weight:bold;
+}
+
+.sign_btn a:active{
+    background: #1A58BC;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    background: #F2F2F2;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-left li:hover{
+    text-decoration: underline;
+    color: #F1F1F1;
+}
+
+.footer-left{
+    margin-left: -25px;
+}
+
+.footer-right li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-right lihover{
+    text-decoration: underline;
+}
+
+.footer-right{
+    margin-right:25px;
+}
