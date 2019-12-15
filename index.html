@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 
-
-
 <html>
     <head>
         <title> Google</title>
         <link rel="stylesheet" href="style.css"/>
     </head>
+
+
 <body>
-<ul>
-    <li><a href="#">Gmail</a></li>
-    <li><a href="#">Images</a></li>
-    <li><span class="sign_btn"><a href="#"> Sign in</a></span></li>
-</ul>
+
+ <div class="topNav">
+    <a class="leftHeader" href="#">About</a>
+    <a class="leftHeader" href="#">Store</a>
+
+    <input id="signInBtn" class="rightHeader" type="button" href="#" value="Sign In">
+    <div class="appsBtn rightHeader"></div>
+    <a class="rightHeader" href="#">Images</a>
+    <a class="rightHeader" href="#">Gmail</a>
+</div>
+
 
 <div class="logo_container">
     <div>
@@ -20,33 +26,50 @@
     </div>
 </div>
 
-<div>
-    <input type="text" class="form" value="Search"/>
+
+
+
+
+<div class="searchBar center">
+    <svg focusable="false" xmls="http://www.w3.org/200/svg" viewbox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+    <form>
+        <input type="text"/>
+    </form>
+    <img src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="mic" height="24" width="24" />
 </div>
 
-<div style="text-align: center;">
-    <input type="button" value="Google Search" class="btn"/>
-    <input type="button" value="I'm feeling Lucky" class="btn"/>
-</div>
+<nav class="center" id="btnBox">
+    <form>
+        <input class="Btns" type="submit" value="Google Search"/>
+        <input class="Btns" type="submit" value="I'm Feeling Lucky"/>
+    </form>
+</nav>
+
+
+
+
+
+
+
 
 <div class="footer">
-    <div>
-        <ul class="Footer-left">
-            <li><a>Advertising </a></li>
-            <li><a>Business</a></li>
-            <li><a>How Search works</a></li>
-        </ul>
-    </div>
+    <div class="fullBar">
+        <div class="bottomNav">
 
-    <div>
-        <ul class="Footer-right">
-        <li><a>Privacy</a></li>
-        <li><a>Terms</a></li>
-        <li><a>Settings</a></li>
-        </ul>
+        <a class = "leftFooter" href="#">Advertising</a>
+        <a class = "leftFooter" href="#">Business</a>
+        <a class = "leftFooter" href="#">How Search works</a>
+
+        <a class = "rightFooter" href="#">Privacy</a>
+        <a class = "rightFooter" href="#">Terms</a>
+        <a class = "rightFooter" href="#">Settings</a>
         </div>
+    </div>
+</div>
 
 </div>
+
+
 
 </body>
 
